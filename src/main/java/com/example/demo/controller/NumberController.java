@@ -13,7 +13,7 @@ import java.util.PriorityQueue;
 public class NumberController {
 
     @GetMapping
-    public Integer getNthMax(@RequestParam String filePath, @RequestParam int n) throws IOException {
+    public Integer getNMax(@RequestParam String filePath, @RequestParam int n) throws IOException {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>(n);
 
         try (FileInputStream fis = new FileInputStream(filePath);
