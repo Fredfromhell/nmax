@@ -13,7 +13,7 @@
 ![ScreenShot](img.JPG)
 
 2.Можно протестировать метод, отправив GET-запрос на следующий URL:
-http://localhost:8080/api/nth-max?filePath=/path/to/your/file.xlsx&n=3
+http://localhost:8080/api?filePath=/path/to/your/file.xlsx&n=3
 Замените /path/to/your/file.xlsx на путь к вашему файлу XLSX и n на желаемое значение.
 
 3. Так же можно протестировать готовое приложение из командной строки OS Windows.
