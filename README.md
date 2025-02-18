@@ -12,6 +12,7 @@
 Тестирование :
 
 1.Можно протестировать выполнения метода в интерфейсе Swagger
+img.jpg
 
 2.Можно протестировать метод, отправив GET-запрос на следующий URL:
 http://localhost:8080/api/nth-max?filePath=/path/to/your/file.xlsx&n=3
